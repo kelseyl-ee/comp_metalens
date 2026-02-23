@@ -215,3 +215,23 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 .venv/
+
+
+# macOS
+.DS_Store
+
+# data / outputs (project-specific)
+data/
+store_outputs/
+digital_baseline/
+*.csv
+
+# torch / numpy / misc artifacts
+*.pt
+*.pth
+*.npz
+*.npy
+
+# optional: if you generate these
+wandb/
+runs/
